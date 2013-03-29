@@ -52,7 +52,7 @@
         older ones.
     -->
 
-    <version name="3.3-1" package="net.sourceforge.gnuwin32.Cpuid" type="one-file">
+    <version name="3.3.1" package="net.sourceforge.gnuwin32.Cpuid" type="one-file">
         <file path=".Npackd\Install.bat">
 
 for /f "delims=" %%x in ('dir /b *.exe') do set setup=%%x
