@@ -70,4 +70,14 @@ not work - for now.
 [choco]: http://chocolatey.org/
 [npackd]: https://code.google.com/p/windows-package-manager/
 
+## A word of warning!
+
+One very annoying thing action has been done.
+
+Npackd created a subdirectory named `.Npackd` in each one folder of
+installed programs on my computer. That means hundreds of directories
+named `.Npackd` in my `Program Files`. Big fail.
+
+I'm not sure when this happened. Maybe command `detect` or similar.
+Anyway, I really don't like it.
 
