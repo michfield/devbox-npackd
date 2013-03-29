@@ -38,10 +38,9 @@
         Packages in alphabetical order (including the reversed domain name prefix).
     -->
     <package name="net.sourceforge.gnuwin32.Cpuid">
-        <title>Wget</title>
+        <title>CpuID</title>
         <url>http://gnuwin32.sourceforge.net/packages/cpuid.htm</url>
         <description>command line HTTP and FTP client</description>
-        <icon>https://lh6.googleusercontent.com/-4gyuFMq8Y5c/USz227Na5yI/AAAAAAAAA-8/7OKxn3zhBvU/s800/wget.png</icon>
         <license>org.gnu.GPLv3</license>
     </package>
 
