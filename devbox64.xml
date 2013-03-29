@@ -40,7 +40,7 @@
     <package name="net.sourceforge.gnuwin32.Cpuid">
         <title>CpuID</title>
         <url>http://gnuwin32.sourceforge.net/packages/cpuid.htm</url>
-        <description>command line HTTP and FTP client</description>
+        <description>CPU identification utility</description>
         <license>org.gnu.GPLv3</license>
     </package>
 

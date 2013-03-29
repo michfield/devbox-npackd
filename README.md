@@ -29,8 +29,43 @@ packages:
 
 [1]: https://code.google.com/p/windows-package-manager/wiki/CommandLineInstallation
 
-### Installing packages: Cpuio
+## Basic package manipulation
 
+I will write an examples for package __CpuIO__ whose full name is
+`net.sourceforge.gnuwin32.Cpuid` and short-name is `Cpuid`.
 
+### Installing packages
+
+    npackdcl add --package=Cpuid
+
+### Search for package, installed or not
+
+    npackdcl search --query=cpuid
+
+### Check if a package is installed
+
+    npackdcl search --status=installed --query=net.sourceforge.gnuwin32.Cpuid
+
+Well, this one didn't show the results I expected. With this query, it
+didn't find any package?
+
+### Uninstall a package
+
+    npackdcl remove --package=net.sourceforge.gnuwin32.Cpuid --version=3.3.1
+
+This one also didn't remove a packege. So I tried with different
+approaches.
+
+I couldn't remove package, and I'm not sure why. Found a package by
+typing:
+
+    npackdcl search --status=installed | grep -i cpuid
+
+But I can't remove it! And this leads me to conclusion.
+
+## Conclusion
+
+For now, forget about Npackd. I just had too much problems for such a
+short time.
 
 
