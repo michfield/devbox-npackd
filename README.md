@@ -5,11 +5,9 @@ Packages in this repository are public tools, well known to everybody.
 We are using these packages for internal purposes in FirstBeatMedia
 Devbox development environment.
 
-After researching other package managers like Chocolatey, CoApp or
-0install, we decided to use [Npackd][1] as an application manager for
+After researching other package managers like [Chocolatey][choco], CoApp or
+0install, we decided to use [Npackd][npackd] as an application manager for
 Windows.
-
-[1]: https://code.google.com/p/windows-package-manager/
 
 ## Install Npackd package manager
 
@@ -66,6 +64,10 @@ But I can't remove it! And this leads me to conclusion.
 ## Conclusion
 
 For now, forget about Npackd. I just had too much problems for such a
-short time.
+short time. I liked it more than [Chocolatey][choco], but it simply does
+not work - for now.
+
+[choco]: http://chocolatey.org/
+[npackd]: https://code.google.com/p/windows-package-manager/
 
 
